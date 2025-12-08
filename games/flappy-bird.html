@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Flappy Bird</title>
+
+<style>
+    body {
+        margin: 0;
+        background: #111;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        overflow: hidden;
+        font-family: sans-serif;
+    }
+
+    /* BOTÃO HOME GRANDE */
+    .home-btn {
+        background: #00aaff;
+        color: white;
+        text-decoration: none;
+        padding: 15px 30px;
+        font-size: 26px;
+        font-weight: bold;
+        border-radius: 12px;
+        margin-top: 15px;
+        box-shadow: 0 0 10px #00aaff;
+    }
+
+    .home-btn:hover {
+        background: #0088cc;
+    }
+
+    iframe {
+        width: 100vw;
+        height: calc(100vh - 100px);
+        border: none;
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- BOTÃO HOME GRANDE -->
+    <a class="home-btn" href="/index.html">HOME</a>
+
+    <!-- JOGO EMBEDADO -->
+    <iframe src="https://flappybird.io/" allowfullscreen></iframe>
+
+</body>
+</html>
